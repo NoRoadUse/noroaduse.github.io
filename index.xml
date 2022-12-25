@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NoRoadUse Phylactery</title>
+    <link>https://noroaduse.github.io/</link>
+    <description>Recent content on NoRoadUse Phylactery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 21 Dec 2022 22:28:53 +0800</lastBuildDate><atom:link href="https://noroaduse.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://noroaduse.github.io/posts/my-first-post/</link>
+      <pubDate>Wed, 21 Dec 2022 22:28:53 +0800</pubDate>
+      
+      <guid>https://noroaduse.github.io/posts/my-first-post/</guid>
+      <description>First Post 開始記錄拉~~!!!!
+我好興奮阿~~~
+HAHAHA</description>
+    </item>
+    
+  </channel>
+</rss>
