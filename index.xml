@@ -6,7 +6,23 @@
     <description>Recent content on NoRoadUse Phylactery</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 28 Jan 2023 22:30:25 +0800</lastBuildDate><atom:link href="https://noroaduse.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2023 21:30:20 +0800</lastBuildDate><atom:link href="https://noroaduse.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aicommits 試用</title>
+      <link>https://noroaduse.github.io/posts/aicommits-%E8%A9%A6%E7%94%A8/</link>
+      <pubDate>Mon, 06 Mar 2023 21:30:20 +0800</pubDate>
+      
+      <guid>https://noroaduse.github.io/posts/aicommits-%E8%A9%A6%E7%94%A8/</guid>
+      <description>最近想玩玩看關於 chatGPT 看看有什麼可以幫助自己在工作上可以借助人工智慧把工人的部分處理掉。 然後注意到有人分享的一個專案，AI Commits 自己本身英文程度不算好，每次想commit 都要想一陣子。嘗試看看能不能節省一些時間。
+安裝上滿簡單的，基本上就是兩行:
+npm install -g aicommits aicommits config set OPENAI_KEY=&amp;lt;your token&amp;gt; 填上你的OPENAI API KEY 就可以開始使用了。
+只要在
+git add -A aicommits 就會利用git diff 把檔案新增的部分餵給chatGPT 然後生成commit。
+使用心得是有點雞肋，確實是生成了一段簡單的commit ，但是單過了頭，有時候比較像是在描述檔案變更的部分。但是他猜測不出你目前更改的東西是為了要做什麼。
+比較常見的commit 除了簡單描述更改的東西也會紀錄為何更改。
+利用aicommits 工具他幫你產生了修改什麼的描述，但是修改的目的還是只能人工自己填上。整體而言解省了幾個描述的打字時間，還有語句通順些，剩下commit 最關鍵功能描述很可惜目前的LLM 還不會通靈，思考這件事目前還有段距離，可能再一段時間或是要下一些魔法咒語?看看能不能讓他可以開箱輸出直用，不用修飾太多。</description>
+    </item>
+    
     <item>
       <title>新玩具 GRIIIX</title>
       <link>https://noroaduse.github.io/posts/%E6%96%B0%E7%8E%A9%E5%85%B7-griiix/</link>
